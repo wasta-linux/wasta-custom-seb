@@ -1,0 +1,17 @@
+wasta-custom-seb (1.0.2) precise; urgency=medium
+
+  * Initial GitHub / Launchpad commit
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Wed, 14 Oct 2015 16:34:07 +0300
+
+wasta-custom-seb (1.0.1) precise; urgency=medium
+
+  * Moved KMFL PDF reference files to wasta-resources-seb
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Fri, 03 Apr 2015 15:31:54 +0300
+
+wasta-custom-seb (1.0.0) precise; urgency=low
+
+  * Initial Release.
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Fri, 03 Apr 2015 15:17:28 +0300

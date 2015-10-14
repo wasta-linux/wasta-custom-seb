@@ -1,0 +1,12 @@
+Source: wasta-custom-seb
+Section: utils
+Priority: extra
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+
+Package: wasta-custom-seb
+Architecture: any
+Depends: blender, exfat-utils, fuse-exfat, ibus-kmfl, simplescreenrecorder, sir, wasta-base-setup, wasta-resources-seb, ${shlibs:Depends}, ${misc:Depends}
+Description: Wasta-Linux Senegal Branch Customization
+ Sets up machine for Wasta-Linux SEB use.

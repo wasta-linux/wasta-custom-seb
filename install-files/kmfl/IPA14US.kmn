@@ -1,0 +1,556 @@
+NAME	"IPA Unicode 6.2 (ver 1.4 US) MSK"
+COPYRIGHT	"(c) 2007-2014 SIL International - distributed under the X11 free software license"
+BITMAP onIPAus.png
+VERSION 6.0
+MESSAGE	"['0409', 'IPA', 'Unicode', '6.2', '(ver', '1.4', 'US)', 'MSK']"
+
+store(&mnemoniclayout) "0" 
+
+begin Unicode > use(Main)
+
+group(Main) using keys
+
+c setup deadkeys
+
++ [SHIFT K_2]	>	deadkey(dk1)
++ [SHIFT K_3]	>	deadkey(dk2)
++ [SHIFT K_6]	>	deadkey(dk3)
++ [SHIFT K_7]	>	deadkey(dk4)
++ [K_EQUAL]	>	deadkey(dk5)
++ [SHIFT K_BKQUOTE]	>	deadkey(dk6)
++ [SHIFT K_BKSLASH]	>	deadkey(dk7)
++ [SHIFT K_COMMA]	>	deadkey(dk8)
++ [SHIFT K_PERIOD]	>	deadkey(dk9)
+
+c simple deadkeys
+
+deadkey(dk1) + [K_4]	>	U+030b
+deadkey(dk1) + [K_3]	>	U+0301
+deadkey(dk1) + [K_2]	>	U+0304
+deadkey(dk1) + [K_1]	>	U+0300
+deadkey(dk1) + [K_0]	>	U+030f
+deadkey(dk1) + [SHIFT K_6]	>	U+0302
+deadkey(dk1) + [SHIFT K_BKQUOTE]	>	U+0303
+deadkey(dk1) + [SHIFT K_EQUAL]	>	U+033d
+deadkey(dk1) + [SHIFT K_5]	>	U+030a
+deadkey(dk1) + [SHIFT K_QUOTE]	>	U+0308
+deadkey(dk1) + [K_5]	>	U+030c
+deadkey(dk1) + [K_6]	>	U+1dc4
+deadkey(dk1) + [K_7]	>	U+1dc5
+deadkey(dk1) + [K_8]	>	U+1dc6
+deadkey(dk1) + [K_9]	>	U+1dc7
+deadkey(dk1) + [SHIFT K_8]	>	U+0306
+deadkey(dk1) + [K_LBRKT]	>	U+1dc8
+deadkey(dk1) + [K_RBRKT]	>	U+1dc9
+deadkey(dk1) + [K_PERIOD]	>	U+0307
+deadkey(dk1) + [K_NPDOT]	>	U+0307
+deadkey(dk1) + [SHIFT K_NPDOT]	>	U+0307
+deadkey(dk1) + [SHIFT K_COLON]	>	U+0310
+deadkey(dk1) + [SHIFT K_1]	>	U+a71f
+deadkey(dk1) + [K_B]	>	U+1d80
+deadkey(dk1) + [K_D]	>	U+1d81
+deadkey(dk1) + [K_F]	>	U+1d82
+deadkey(dk1) + [K_G]	>	U+1d83
+deadkey(dk1) + [K_K]	>	U+1d84
+deadkey(dk1) + [K_L]	>	U+1d85
+deadkey(dk1) + [K_M]	>	U+1d86
+deadkey(dk1) + [K_N]	>	U+1d87
+deadkey(dk1) + [K_P]	>	U+1d88
+deadkey(dk1) + [K_R]	>	U+1d89
+deadkey(dk1) + [K_S]	>	U+1d8a
+deadkey(dk1) + [SHIFT K_S]	>	U+1d8b
+deadkey(dk1) + [K_V]	>	U+1d8c
+deadkey(dk1) + [K_X]	>	U+1d8d
+deadkey(dk1) + [K_Z]	>	U+1d8e
+deadkey(dk1) + [SHIFT K_BKSLASH]	>	U+030d
+deadkey(dk1) + [K_SPACE]	>	U+0040
+deadkey(dk1) + [SHIFT K_SPACE]	>	U+0040
+
+deadkey(dk2) + [K_4]	>	U+02e5
+deadkey(dk2) + [K_3]	>	U+02e6
+deadkey(dk2) + [K_2]	>	U+02e7
+deadkey(dk2) + [K_1]	>	U+02e8
+deadkey(dk2) + [K_0]	>	U+02e9
+deadkey(dk2) + [K_LBRKT]	>	U+a71c
+deadkey(dk2) + [K_RBRKT]	>	U+a71b
+deadkey(dk2) + [SHIFT K_RBRKT]	>	U+2197
+deadkey(dk2) + [SHIFT K_LBRKT]	>	U+2198
+deadkey(dk2) + [SHIFT K_SLASH]	>	U+02e4
+deadkey(dk2) + [SHIFT K_1]	>	U+a71e
+deadkey(dk2) + [K_A]	>	U+1d45
+deadkey(dk2) + [SHIFT K_A]	>	U+1d9b
+deadkey(dk2) + [K_B]	>	U+1d46
+deadkey(dk2) + [SHIFT K_B]	>	U+f1a1
+deadkey(dk2) + [K_C]	>	U+f1a3
+deadkey(dk2) + [SHIFT K_C]	>	U+f1a4
+deadkey(dk2) + [K_D]	>	U+a7f9
+deadkey(dk2) + [SHIFT K_D]	>	U+f1ae
+deadkey(dk2) + [SHIFT K_E]	>	U+1d4b
+deadkey(dk2) + [K_E]	>	U+1d9f
+deadkey(dk2) + [K_G]	>	U+02e0
+deadkey(dk2) + [K_H]	>	U+f1bc
+deadkey(dk2) + [K_I]	>	U+1da4
+deadkey(dk2) + [SHIFT K_J]	>	U+1dae
+deadkey(dk2) + [K_J]	>	U+1da1
+deadkey(dk2) + [K_L]	>	U+1da9
+deadkey(dk2) + [K_M]	>	U+1dad
+deadkey(dk2) + [SHIFT K_N]	>	U+1daf
+deadkey(dk2) + [K_N]	>	U+1d51
+deadkey(dk2) + [K_O]	>	U+1db1
+deadkey(dk2) + [SHIFT K_O]	>	U+f1ab
+deadkey(dk2) + [SHIFT K_R]	>	U+02b5
+deadkey(dk2) + [K_R]	>	U+02b4
+deadkey(dk2) + [K_S]	>	U+1db4
+deadkey(dk2) + [K_T]	>	U+1dbf
+deadkey(dk2) + [K_U]	>	U+1db6
+deadkey(dk2) + [K_V]	>	U+1db9
+deadkey(dk2) + [SHIFT K_Y]	>	U+1da3
+deadkey(dk2) + [K_Y]	>	U+f1ce
+deadkey(dk2) + [K_Z]	>	U+1dbc
+deadkey(dk2) + [SHIFT K_Z]	>	U+1dbe
+deadkey(dk2) + [K_SPACE]	>	U+0023
+deadkey(dk2) + [SHIFT K_SPACE]	>	U+0023
+
+deadkey(dk3) + [K_0]	>	U+2070
+deadkey(dk3) + [K_1]	>	U+00b9
+deadkey(dk3) + [K_2]	>	U+00b2
+deadkey(dk3) + [K_3]	>	U+00b3
+deadkey(dk3) + [K_4]	>	U+2074
+deadkey(dk3) + [K_5]	>	U+2075
+deadkey(dk3) + [K_6]	>	U+2076
+deadkey(dk3) + [K_7]	>	U+2077
+deadkey(dk3) + [K_8]	>	U+2078
+deadkey(dk3) + [K_9]	>	U+2079
+deadkey(dk3) + [SHIFT K_EQUAL]	>	U+207a
+deadkey(dk3) + [SHIFT K_0]	>	U+207e
+deadkey(dk3) + [K_EQUAL]	>	U+207c
+deadkey(dk3) + [K_HYPHEN]	>	U+207b
+deadkey(dk3) + [SHIFT K_9]	>	U+207d
+deadkey(dk3) + [SHIFT K_SLASH]	>	U+02c0
+deadkey(dk3) + [SHIFT K_1]	>	U+a71d
+deadkey(dk3) + [K_A]	>	U+1d43
+deadkey(dk3) + [SHIFT K_A]	>	U+1d44
+deadkey(dk3) + [K_B]	>	U+1d47
+deadkey(dk3) + [SHIFT K_B]	>	U+1d5d
+deadkey(dk3) + [K_C]	>	U+1d9c
+deadkey(dk3) + [SHIFT K_C]	>	U+1d9d
+deadkey(dk3) + [K_D]	>	U+1d48
+deadkey(dk3) + [SHIFT K_D]	>	U+1d9e
+deadkey(dk3) + [K_E]	>	U+1d49
+deadkey(dk3) + [SHIFT K_E]	>	U+1d4a
+deadkey(dk3) + [K_F]	>	U+1da0
+deadkey(dk3) + [SHIFT K_F]	>	U+1db2
+deadkey(dk3) + [SHIFT K_G]	>	U+1da2
+deadkey(dk3) + [K_G]	>	U+1d4d
+deadkey(dk3) + [K_H]	>	U+02b0
+deadkey(dk3) + [SHIFT K_H]	>	U+02b1
+deadkey(dk3) + [SHIFT K_I]	>	U+1da6
+deadkey(dk3) + [K_I]	>	U+2071
+deadkey(dk3) + [K_J]	>	U+02b2
+deadkey(dk3) + [SHIFT K_J]	>	U+1da8
+deadkey(dk3) + [K_K]	>	U+1d4f
+deadkey(dk3) + [SHIFT K_L]	>	U+1dab
+deadkey(dk3) + [K_L]	>	U+02e1
+deadkey(dk3) + [SHIFT K_M]	>	U+1dac
+deadkey(dk3) + [K_M]	>	U+1d50
+deadkey(dk3) + [SHIFT K_N]	>	U+1db0
+deadkey(dk3) + [K_N]	>	U+207f
+deadkey(dk3) + [K_O]	>	U+1d52
+deadkey(dk3) + [SHIFT K_O]	>	U+1d53
+deadkey(dk3) + [K_P]	>	U+1d56
+deadkey(dk3) + [K_R]	>	U+02b3
+deadkey(dk3) + [SHIFT K_R]	>	U+02b6
+deadkey(dk3) + [SHIFT K_S]	>	U+1db3
+deadkey(dk3) + [K_S]	>	U+02e2
+deadkey(dk3) + [K_T]	>	U+1d57
+deadkey(dk3) + [SHIFT K_U]	>	U+1db7
+deadkey(dk3) + [K_U]	>	U+1d58
+deadkey(dk3) + [SHIFT K_V]	>	U+1dba
+deadkey(dk3) + [K_V]	>	U+1d5b
+deadkey(dk3) + [K_W]	>	U+02b7
+deadkey(dk3) + [SHIFT K_W]	>	U+1d5a
+deadkey(dk3) + [K_X]	>	U+02e3
+deadkey(dk3) + [SHIFT K_X]	>	U+f1b5
+deadkey(dk3) + [K_Y]	>	U+02b8
+deadkey(dk3) + [SHIFT K_Y]	>	U+f1b4
+deadkey(dk3) + [K_Z]	>	U+1dbb
+deadkey(dk3) + [SHIFT K_Z]	>	U+1dbd
+deadkey(dk3) + [K_SPACE]	>	U+005e
+deadkey(dk3) + [SHIFT K_SPACE]	>	U+005e
+
+deadkey(dk4) + [K_4]	>	U+a712
+deadkey(dk4) + [K_3]	>	U+a713
+deadkey(dk4) + [K_2]	>	U+a714
+deadkey(dk4) + [K_1]	>	U+a715
+deadkey(dk4) + [K_0]	>	U+a716
+deadkey(dk4) + [SHIFT K_3]	>	U+0361
+deadkey(dk4) + [SHIFT K_2]	>	U+035c
+deadkey(dk4) + [SHIFT K_BKQUOTE]	>	U+0330
+deadkey(dk4) + [SHIFT K_8]	>	U+032f
+deadkey(dk4) + [SHIFT K_BKSLASH]	>	U+0329
+deadkey(dk4) + [SHIFT K_5]	>	U+0325
+deadkey(dk4) + [K_5]	>	U+032c
+deadkey(dk4) + [SHIFT K_QUOTE]	>	U+0324
+deadkey(dk4) + [K_LBRKT]	>	U+032a
+deadkey(dk4) + [K_RBRKT]	>	U+033a
+deadkey(dk4) + [SHIFT K_LBRKT]	>	U+033b
+deadkey(dk4) + [SHIFT K_RBRKT]	>	U+033c
+deadkey(dk4) + [SHIFT K_EQUAL]	>	U+031f
+deadkey(dk4) + [SHIFT K_HYPHEN]	>	U+0320
+deadkey(dk4) + [SHIFT K_9]	>	U+031c
+deadkey(dk4) + [SHIFT K_0]	>	U+0339
+deadkey(dk4) + [K_COMMA]	>	U+0327
+deadkey(dk4) + [K_6]	>	U+031d
+deadkey(dk4) + [K_7]	>	U+031e
+deadkey(dk4) + [K_8]	>	U+0318
+deadkey(dk4) + [K_9]	>	U+0319
+deadkey(dk4) + [SHIFT K_4]	>	U+1dc2
+deadkey(dk4) + [SHIFT K_1]	>	U+0348
+deadkey(dk4) + [K_PERIOD]	>	U+0323
+deadkey(dk4) + [K_NPDOT]	>	U+0323
+deadkey(dk4) + [SHIFT K_NPDOT]	>	U+0323
+deadkey(dk4) + [K_A]	>	U+1d8f
+deadkey(dk4) + [K_E]	>	U+1d92
+deadkey(dk4) + [K_I]	>	U+1d96
+deadkey(dk4) + [K_U]	>	U+1d99
+deadkey(dk4) + [SHIFT K_A]	>	U+1d90
+deadkey(dk4) + [K_D]	>	U+1d91
+deadkey(dk4) + [SHIFT K_E]	>	U+1d93
+deadkey(dk4) + [K_B]	>	U+1d94
+deadkey(dk4) + [SHIFT K_B]	>	U+1d95
+deadkey(dk4) + [K_O]	>	U+1d97
+deadkey(dk4) + [K_S]	>	U+1d98
+deadkey(dk4) + [K_Z]	>	U+1d9a
+deadkey(dk4) + [K_SPACE]	>	U+0026
+deadkey(dk4) + [SHIFT K_SPACE]	>	U+0026
+
+deadkey(dk5) + [SHIFT K_B]	>	U+0299
+deadkey(dk5) + [SHIFT K_E]	>	U+0258
+deadkey(dk5) + [SHIFT K_G]	>	U+0262
+deadkey(dk5) + [SHIFT K_H]	>	U+029c
+deadkey(dk5) + [SHIFT K_I]	>	U+0268
+deadkey(dk5) + [SHIFT K_L]	>	U+029f
+deadkey(dk5) + [SHIFT K_N]	>	U+0274
+deadkey(dk5) + [SHIFT K_O]	>	U+0275
+deadkey(dk5) + [SHIFT K_Q]	>	U+02a1
+deadkey(dk5) + [SHIFT K_R]	>	U+0280
+deadkey(dk5) + [SHIFT K_S]	>	U+1d98
+deadkey(dk5) + [SHIFT K_U]	>	U+0289
+deadkey(dk5) + [SHIFT K_Z]	>	U+1d9a
+deadkey(dk5) + [SHIFT K_3]	>	U+203f
+deadkey(dk5) + [SHIFT K_COMMA]	>	U+034f
+deadkey(dk5) + [SHIFT K_PERIOD]	>	U+2192
+deadkey(dk5) + [SHIFT K_SLASH]	>	U+0294
+deadkey(dk5) + [SHIFT K_1]	>	U+01c1
+deadkey(dk5) + [K_PERIOD]	>	U+2016
+deadkey(dk5) + [K_NPDOT]	>	U+2016
+deadkey(dk5) + [SHIFT K_NPDOT]	>	U+2016
+deadkey(dk5) + [K_A]	>	U+0251
+deadkey(dk5) + [K_B]	>	U+03b2
+deadkey(dk5) + [K_C]	>	U+0063 U+0327
+deadkey(dk5) + [K_D]	>	U+00f0
+deadkey(dk5) + [K_E]	>	U+0259
+deadkey(dk5) + [K_F]	>	U+0278
+deadkey(dk5) + [K_G]	>	U+0263
+deadkey(dk5) + [K_H]	>	U+0265
+deadkey(dk5) + [K_I]	>	U+026a
+deadkey(dk5) + [K_J]	>	U+025f
+deadkey(dk5) + [K_L]	>	U+026c
+deadkey(dk5) + [K_N]	>	U+0272
+deadkey(dk5) + [K_O]	>	U+0252
+deadkey(dk5) + [K_P]	>	U+0298
+deadkey(dk5) + [K_R]	>	U+0279
+deadkey(dk5) + [K_S]	>	U+0283
+deadkey(dk5) + [K_T]	>	U+03b8
+deadkey(dk5) + [K_U]	>	U+026f
+deadkey(dk5) + [K_V]	>	U+028b
+deadkey(dk5) + [K_W]	>	U+028d
+deadkey(dk5) + [K_X]	>	U+03c7
+deadkey(dk5) + [K_Y]	>	U+028f
+deadkey(dk5) + [K_Z]	>	U+0292
+deadkey(dk5) + [K_QUOTE]	>	U+02bd
+deadkey(dk5) + [K_1]	>	U+f1f1
+deadkey(dk5) + [K_2]	>	U+f1f2
+deadkey(dk5) + [K_3]	>	U+f1f3
+deadkey(dk5) + [K_4]	>	U+f1f4
+deadkey(dk5) + [K_5]	>	U+f1f5
+deadkey(dk5) + [K_6]	>	U+f1f6
+deadkey(dk5) + [K_7]	>	U+f1f7
+deadkey(dk5) + [K_8]	>	U+f1f8
+deadkey(dk5) + [K_9]	>	U+f1f9
+deadkey(dk5) + [SHIFT K_COLON]	>	U+02d0
+deadkey(dk5) + [K_0]	>	U+2205
+deadkey(dk5) + [K_SPACE]	>	U+003d
+deadkey(dk5) + [SHIFT K_SPACE]	>	U+003d
+
+deadkey(dk6) + [K_B]	>	U+1d6c
+deadkey(dk6) + [K_D]	>	U+1d6d
+deadkey(dk6) + [K_F]	>	U+1d6e
+deadkey(dk6) + [K_L]	>	U+026b
+deadkey(dk6) + [K_M]	>	U+1d6f
+deadkey(dk6) + [K_N]	>	U+1d70
+deadkey(dk6) + [K_P]	>	U+1d71
+deadkey(dk6) + [K_R]	>	U+1d72
+deadkey(dk6) + [SHIFT K_R]	>	U+1d73
+deadkey(dk6) + [K_S]	>	U+1d74
+deadkey(dk6) + [K_T]	>	U+1d75
+deadkey(dk6) + [K_Z]	>	U+1d76
+deadkey(dk6) + [K_SPACE]	>	U+007e
+deadkey(dk6) + [SHIFT K_SPACE]	>	U+007e
+
+deadkey(dk7) + [SHIFT K_A]	>	U+1d00
+deadkey(dk7) + [SHIFT K_E]	>	U+1d07
+deadkey(dk7) + [SHIFT K_T]	>	U+0287
+deadkey(dk7) + [SHIFT K_Y]	>	U+02af
+deadkey(dk7) + [SHIFT K_Z]	>	U+0285
+deadkey(dk7) + [K_A]	>	U+03b1
+deadkey(dk7) + [K_D]	>	U+0221
+deadkey(dk7) + [K_E]	>	U+029a
+deadkey(dk7) + [K_H]	>	U+0452
+deadkey(dk7) + [K_I]	>	U+0269
+deadkey(dk7) + [K_L]	>	U+0234
+deadkey(dk7) + [K_N]	>	U+0235
+deadkey(dk7) + [K_T]	>	U+0236
+deadkey(dk7) + [K_U]	>	U+0277
+deadkey(dk7) + [K_Y]	>	U+02ae
+deadkey(dk7) + [K_Z]	>	U+027f
+deadkey(dk7) + [K_RBRKT]	>	U+031a
+deadkey(dk7) + [K_LBRKT]	>	U+02de
+deadkey(dk7) + [SHIFT K_1]	>	U+01c3
+deadkey(dk7) + [K_SPACE]	>	U+007c
+deadkey(dk7) + [SHIFT K_SPACE]	>	U+007c
+
+deadkey(dk8) + [SHIFT K_E]	>	U+0153
+deadkey(dk8) + [SHIFT K_I]	>	U+1d7b
+deadkey(dk8) + [SHIFT K_L]	>	U+028e
+deadkey(dk8) + [SHIFT K_O]	>	U+025e
+deadkey(dk8) + [SHIFT K_Q]	>	U+02a2
+deadkey(dk8) + [SHIFT K_R]	>	U+027b
+deadkey(dk8) + [SHIFT K_SLASH]	>	U+0295
+deadkey(dk8) + [SHIFT K_1]	>	U+01c0
+deadkey(dk8) + [K_PERIOD]	>	U+007c
+deadkey(dk8) + [K_NPDOT]	>	U+007c
+deadkey(dk8) + [SHIFT K_NPDOT]	>	U+007c
+deadkey(dk8) + [K_A]	>	U+00e6
+deadkey(dk8) + [K_C]	>	U+0255
+deadkey(dk8) + [K_D]	>	U+0256
+deadkey(dk8) + [K_E]	>	U+025b
+deadkey(dk8) + [K_G]	>	U+0261
+deadkey(dk8) + [K_H]	>	U+0266
+deadkey(dk8) + [K_J]	>	U+029d
+deadkey(dk8) + [K_L]	>	U+026d
+deadkey(dk8) + [K_N]	>	U+0273
+deadkey(dk8) + [K_O]	>	U+0254
+deadkey(dk8) + [K_R]	>	U+027d
+deadkey(dk8) + [K_S]	>	U+0282
+deadkey(dk8) + [K_T]	>	U+0288
+deadkey(dk8) + [K_U]	>	U+028a
+deadkey(dk8) + [K_V]	>	U+2c71
+deadkey(dk8) + [K_W]	>	U+2c73
+deadkey(dk8) + [K_Y]	>	U+0265
+deadkey(dk8) + [K_Z]	>	U+0290
+deadkey(dk8) + [K_QUOTE]	>	U+02bb
+deadkey(dk8) + [SHIFT K_COLON]	>	U+02d1
+deadkey(dk8) + [SHIFT K_BKSLASH]	>	U+02cc
+deadkey(dk8) + [K_SPACE]	>	U+003c
+deadkey(dk8) + [SHIFT K_SPACE]	>	U+003c
+
+deadkey(dk9) + [SHIFT K_A]	>	U+1d02
+deadkey(dk9) + [SHIFT K_E]	>	U+0276
+deadkey(dk9) + [SHIFT K_G]	>	U+029b
+deadkey(dk9) + [SHIFT K_H]	>	U+0267
+deadkey(dk9) + [SHIFT K_I]	>	U+1d7c
+deadkey(dk9) + [SHIFT K_L]	>	U+027a
+deadkey(dk9) + [SHIFT K_O]	>	U+0264
+deadkey(dk9) + [SHIFT K_R]	>	U+0281
+deadkey(dk9) + [K_A]	>	U+0250
+deadkey(dk9) + [K_B]	>	U+0253
+deadkey(dk9) + [K_C]	>	U+0188
+deadkey(dk9) + [K_D]	>	U+0257
+deadkey(dk9) + [K_E]	>	U+025c
+deadkey(dk9) + [K_G]	>	U+0260
+deadkey(dk9) + [K_H]	>	U+0127
+deadkey(dk9) + [K_J]	>	U+0284
+deadkey(dk9) + [K_K]	>	U+0199
+deadkey(dk9) + [K_L]	>	U+026e
+deadkey(dk9) + [K_M]	>	U+0271
+deadkey(dk9) + [K_N]	>	U+014b
+deadkey(dk9) + [K_O]	>	U+00f8
+deadkey(dk9) + [K_P]	>	U+01a5
+deadkey(dk9) + [K_Q]	>	U+02a0
+deadkey(dk9) + [K_R]	>	U+027e
+deadkey(dk9) + [K_S]	>	U+03c3
+deadkey(dk9) + [K_T]	>	U+01ad
+deadkey(dk9) + [K_U]	>	U+028c
+deadkey(dk9) + [K_W]	>	U+0270
+deadkey(dk9) + [SHIFT K_U]	>	U+1d7e
+deadkey(dk9) + [K_Z]	>	U+0291
+deadkey(dk9) + [SHIFT K_1]	>	U+01c2
+deadkey(dk9) + [K_QUOTE]	>	U+02bc
+deadkey(dk9) + [SHIFT K_BKSLASH]	>	U+02c8
+deadkey(dk9) + [K_0]	>	U+25cc
+deadkey(dk9) + [K_SPACE]	>	U+003e
+deadkey(dk9) + [SHIFT K_SPACE]	>	U+003e
+
+c nested deadkeys (2)
+
+deadkey(dk1)  deadkey(dk3) + [SHIFT K_6] 	>	U+0302
+deadkey(dk1)  deadkey(dk6) + [SHIFT K_BKQUOTE] 	>	U+0303
+deadkey(dk1)  deadkey(dk8) + [SHIFT K_BKSLASH] 	>	U+030d
+
+
+deadkey(dk3)  deadkey(dk5) + [K_EQUAL] 	>	U+207c
+
+deadkey(dk4)  deadkey(dk2) + [SHIFT K_3] 	>	U+0361
+deadkey(dk4)  deadkey(dk1) + [SHIFT K_2] 	>	U+035c
+deadkey(dk4)  deadkey(dk6) + [SHIFT K_BKQUOTE] 	>	U+0330
+deadkey(dk4)  deadkey(dk8) + [SHIFT K_BKSLASH] 	>	U+0329
+
+deadkey(dk5)  deadkey(dk2) + [SHIFT K_3] 	>	U+203f
+deadkey(dk5)  deadkey(dk8) + [SHIFT K_COMMA] 	>	U+034f
+deadkey(dk5)  deadkey(dk9) + [SHIFT K_PERIOD] 	>	U+2192
+
+
+
+
+deadkey(dk9)  deadkey(dk8) + [SHIFT K_BKSLASH] 	>	U+02c8
+
+c setup 'simple' keys
+
++ [K_1]	>	U+0031
++ [SHIFT K_1]	>	U+0021
+
++ [K_2]	>	U+0032
+
++ [K_3]	>	U+0033
+
++ [K_4]	>	U+0034
++ [SHIFT K_4]	>	U+0024
+
++ [K_5]	>	U+0035
++ [SHIFT K_5]	>	U+0025
+
++ [K_6]	>	U+0036
+
++ [K_7]	>	U+0037
+
++ [K_8]	>	U+0038
++ [SHIFT K_8]	>	U+002a
+
++ [K_9]	>	U+0039
++ [SHIFT K_9]	>	U+0028
+
++ [K_0]	>	U+0030
++ [SHIFT K_0]	>	U+0029
+
++ [K_HYPHEN]	>	U+002d
++ [SHIFT K_HYPHEN]	>	U+005f
+
++ [SHIFT K_EQUAL]	>	U+002b
+
++ [K_Q]	>	U+0071
++ [SHIFT K_Q]	>	U+0051
+
++ [K_W]	>	U+0077
++ [SHIFT K_W]	>	U+0057
+
++ [K_E]	>	U+0065
++ [SHIFT K_E]	>	U+0045
+
++ [K_R]	>	U+0072
++ [SHIFT K_R]	>	U+0052
+
++ [K_T]	>	U+0074
++ [SHIFT K_T]	>	U+0054
+
++ [K_Y]	>	U+0079
++ [SHIFT K_Y]	>	U+0059
+
++ [K_U]	>	U+0075
++ [SHIFT K_U]	>	U+0055
+
++ [K_I]	>	U+0069
++ [SHIFT K_I]	>	U+0049
+
++ [K_O]	>	U+006f
++ [SHIFT K_O]	>	U+004f
+
++ [K_P]	>	U+0070
++ [SHIFT K_P]	>	U+0050
+
++ [K_LBRKT]	>	U+005b
++ [SHIFT K_LBRKT]	>	U+007b
+
++ [K_RBRKT]	>	U+005d
++ [SHIFT K_RBRKT]	>	U+007d
+
++ [K_A]	>	U+0061
++ [SHIFT K_A]	>	U+0041
+
++ [K_S]	>	U+0073
++ [SHIFT K_S]	>	U+0053
+
++ [K_D]	>	U+0064
++ [SHIFT K_D]	>	U+0044
+
++ [K_F]	>	U+0066
++ [SHIFT K_F]	>	U+0046
+
++ [K_G]	>	U+0067
++ [SHIFT K_G]	>	U+0047
+
++ [K_H]	>	U+0068
++ [SHIFT K_H]	>	U+0048
+
++ [K_J]	>	U+006a
++ [SHIFT K_J]	>	U+004a
+
++ [K_K]	>	U+006b
++ [SHIFT K_K]	>	U+004b
+
++ [K_L]	>	U+006c
++ [SHIFT K_L]	>	U+004c
+
++ [K_COLON]	>	U+003b
++ [SHIFT K_COLON]	>	U+003a
+
++ [K_QUOTE]	>	U+0027
++ [SHIFT K_QUOTE]	>	U+0022
+
++ [K_BKQUOTE]	>	U+0060
+
++ [K_BKSLASH]	>	U+005c
+
++ [K_Z]	>	U+007a
++ [SHIFT K_Z]	>	U+005a
+
++ [K_X]	>	U+0078
++ [SHIFT K_X]	>	U+0058
+
++ [K_C]	>	U+0063
++ [SHIFT K_C]	>	U+0043
+
++ [K_V]	>	U+0076
++ [SHIFT K_V]	>	U+0056
+
++ [K_B]	>	U+0062
++ [SHIFT K_B]	>	U+0042
+
++ [K_N]	>	U+006e
++ [SHIFT K_N]	>	U+004e
+
++ [K_M]	>	U+006d
++ [SHIFT K_M]	>	U+004d
+
++ [K_COMMA]	>	U+002c
+
++ [K_PERIOD]	>	U+002e
+
++ [K_SLASH]	>	U+002f
++ [SHIFT K_SLASH]	>	U+003f
+
++ [K_SPACE]	>	U+0020
++ [SHIFT K_SPACE]	>	U+0020
+
++ [K_NPDOT]	>	U+002e
++ [SHIFT K_NPDOT]	>	U+002e

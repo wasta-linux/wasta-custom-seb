@@ -1,0 +1,203 @@
+NAME	"SIL Biblical Hebrew 1.5 - US Standard layout"
+COPYRIGHT	"(c) 2013 Windows User"
+BITMAP onBH.png
+VERSION 6.0
+MESSAGE	"['0409', 'Biblica', 'Hebrew', '(SIL)', '-', 'US', 'Standard', 'layout']"
+
+store(&mnemoniclayout) "0" 
+
+begin Unicode > use(Main)
+
+group(Main) using keys
+
+c setup deadkeys
+
+
+c simple deadkeys
+
+c nested deadkeys (2)
+
+c setup 'simple' keys
+
++ [K_1]	>	U+0031
++ [SHIFT K_1]	>	U+0021
++ [ALT CTRL K_1]	>	U+05bd
++ [ALT CTRL SHIFT K_1]	>	U+0597
+
++ [K_2]	>	U+0032
++ [SHIFT K_2]	>	U+0598
++ [ALT CTRL K_2]	>	U+05a2
++ [ALT CTRL SHIFT K_2]	>	U+05ae
+
++ [K_3]	>	U+0033
++ [SHIFT K_3]	>	U+05a8
++ [ALT CTRL K_3]	>	U+0596
++ [ALT CTRL SHIFT K_3]	>	U+0599
+
++ [K_4]	>	U+0034
++ [SHIFT K_4]	>	U+059c
++ [ALT CTRL K_4]	>	U+05a5
++ [ALT CTRL SHIFT K_4]	>	U+05a0
+
++ [K_5]	>	U+0035
++ [SHIFT K_5]	>	U+059e
++ [ALT CTRL K_5]	>	U+05a6
++ [ALT CTRL SHIFT K_5]	>	U+05a9
+
++ [K_6]	>	U+0036
++ [ALT CTRL K_6]	>	U+05ad
++ [ALT CTRL SHIFT K_6]	>	U+059f
+
++ [K_7]	>	U+0037
++ [SHIFT K_7]	>	U+05ac
++ [ALT CTRL K_7]	>	U+05a3
++ [ALT CTRL SHIFT K_7]	>	U+05a1
+
++ [K_8]	>	U+0038
++ [SHIFT K_8]	>	U+059d
++ [ALT CTRL K_8]	>	U+059b
++ [ALT CTRL SHIFT K_8]	>	U+0595
+
++ [K_9]	>	U+0039
++ [SHIFT K_9]	>	U+0028
++ [ALT CTRL K_9]	>	U+05a7
++ [ALT CTRL SHIFT K_9]	>	U+0593
+
++ [K_0]	>	U+0030
++ [SHIFT K_0]	>	U+0029
++ [ALT CTRL K_0]	>	U+05aa
++ [ALT CTRL SHIFT K_0]	>	U+05af
+
++ [K_HYPHEN]	>	U+05be
++ [SHIFT K_HYPHEN]	>	U+2013
++ [ALT CTRL K_HYPHEN]	>	U+2014
++ [ALT CTRL SHIFT K_HYPHEN]	>	U+05bf
+
++ [K_EQUAL]	>	U+05bc
++ [ALT CTRL K_EQUAL]	>	U+0591
++ [ALT CTRL SHIFT K_EQUAL]	>	U+25cc
+
++ [K_Q]	>	U+05e7
++ [SHIFT K_Q]	>	U+0597
+
++ [K_W]	>	U+05d5
+
++ [K_E]	>	U+05b6
++ [SHIFT K_E]	>	U+05b5
++ [ALT CTRL SHIFT K_E]	>	U+05b1
+
++ [K_R]	>	U+05e8
+
++ [K_T]	>	U+05ea
+
++ [K_Y]	>	U+05d9
++ [SHIFT K_Y]	>	U+059f
+
++ [K_U]	>	U+05bb
+
++ [K_I]	>	U+05b4
+
++ [K_O]	>	U+05b9
++ [SHIFT K_O]	>	U+05ba
++ [ALT CTRL K_O]	>	U+05c7
++ [ALT CTRL SHIFT K_O]	>	U+05b3
+
++ [K_P]	>	U+05e4
++ [SHIFT K_P]	>	U+05e3
++ [ALT CTRL SHIFT K_P]	>	U+034f
+
++ [K_LBRKT]	>	U+005b
++ [SHIFT K_LBRKT]	>	U+007b
++ [ALT CTRL SHIFT K_LBRKT]	>	U+0594
+
++ [K_RBRKT]	>	U+005d
++ [SHIFT K_RBRKT]	>	U+007d
++ [ALT CTRL K_RBRKT]	>	U+059a
++ [ALT CTRL SHIFT K_RBRKT]	>	U+0592
+
++ [K_A]	>	U+05b7
++ [SHIFT K_A]	>	U+05b8
++ [ALT CTRL K_A]	>	U+05c7
++ [ALT CTRL SHIFT K_A]	>	U+05b2
+
++ [K_S]	>	U+05e1
++ [SHIFT K_S]	>	U+05e9
+
++ [K_D]	>	U+05d3
+
++ [ K_F]	>	 U+05e9 U+05c2
+
++ [K_G]	>	U+05d2
++ [ALT CTRL K_G]	>	U+25e6
++ [ALT CTRL SHIFT K_G]	>	U+2022
+
++ [K_H]	>	U+05d4
++ [ALT CTRL K_H]	>	U+0336
++ [ALT CTRL SHIFT K_H]	>	U+030a
+
++ [ K_J]	>	 U+05e9 U+05c1
+
++ [K_K]	>	U+05db
++ [SHIFT K_K]	>	U+05da
+
++ [K_L]	>	U+05dc
+
++ [K_COLON]	>	U+05b0
++ [SHIFT K_COLON]	>	U+05f4
++ [ALT CTRL K_COLON]	>	U+003b
++ [ALT CTRL SHIFT K_COLON]	>	U+05c3
+
++ [K_QUOTE]	>	U+2019
++ [SHIFT K_QUOTE]	>	U+201d
++ [ALT CTRL K_QUOTE]	>	U+0323
++ [ALT CTRL SHIFT K_QUOTE]	>	U+05c4
+
++ [K_BKQUOTE]	>	U+20ac
++ [SHIFT K_BKQUOTE]	>	U+20aa
++ [ALT CTRL K_BKQUOTE]	>	U+0024
+
++ [K_BKSLASH]	>	U+007c
++ [SHIFT K_BKSLASH]	>	U+05c0
++ [ALT CTRL K_BKSLASH]	>	U+05a4
++ [ALT CTRL SHIFT K_BKSLASH]	>	U+05ab
+
++ [K_Z]	>	U+05d6
+
++ [K_X]	>	U+05d7
+
++ [K_C]	>	U+05e6
++ [SHIFT K_C]	>	U+05e5
+
++ [K_V]	>	U+05d8
+
++ [K_B]	>	U+05d1
+
++ [K_N]	>	U+05e0
++ [SHIFT K_N]	>	U+05df
+
++ [K_M]	>	U+05de
++ [SHIFT K_M]	>	U+05dd
++ [ALT CTRL K_M]	>	U+200c
++ [ALT CTRL SHIFT K_M]	>	U+200d
+
++ [K_COMMA]	>	U+002c
++ [SHIFT K_COMMA]	>	U+05e2
++ [ALT CTRL K_COMMA]	>	U+00ab
++ [ALT CTRL SHIFT K_COMMA]	>	U+0307
+
++ [K_PERIOD]	>	U+002e
++ [SHIFT K_PERIOD]	>	U+05d0
++ [ALT CTRL K_PERIOD]	>	U+00bb
++ [ALT CTRL SHIFT K_PERIOD]	>	U+0308
+
++ [K_SLASH]	>	U+002f
++ [SHIFT K_SLASH]	>	U+003f
++ [ALT CTRL K_SLASH]	>	U+05f3
+
++ [K_SPACE]	>	U+0020
++ [SHIFT K_SPACE]	>	U+0020
++ [ALT CTRL K_SPACE]	>	U+2009
++ [ALT CTRL SHIFT K_SPACE]	>	U+00a0
+
++ [K_NPDOT]	>	U+002e
++ [SHIFT K_NPDOT]	>	U+002e
